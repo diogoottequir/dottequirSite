@@ -1,7 +1,8 @@
 .page-shell {
   width: min(1180px, calc(100% - 32px));
+  min-height: 100dvh;
   margin: 0 auto;
-  padding: 32px 0 64px;
+  padding: 32px 0 0;
 }
 
 .topbar {
