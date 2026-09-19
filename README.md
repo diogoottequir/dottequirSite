@@ -1,4 +1,23 @@
-# React + Vite
+# Dottequir Site
+
+Site React publicado com Vite e GitHub Pages.
+
+## Desenvolvimento
+
+```bash
+npm install
+npm run dev
+```
+
+## Publicacao
+
+Cada push na branch `main` executa automaticamente o workflow de deploy em
+`.github/workflows/deploy.yml`.
+
+No repositorio do GitHub, abra **Settings > Pages** e selecione **GitHub Actions**
+como fonte de build. O site sera publicado em:
+
+https://diogoottequir.github.io/dottequirSite/
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
